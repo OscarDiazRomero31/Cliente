@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programación con funciones, arrays y objetos definidos por el usuario </title>
+    <script src="ejercicio11.js"></script>
+</head>
+
+<body>
+    Crear   un   formulario   que   contiene   dos   campos   de   texto   contraseña.   Cuando   el   usuario   sale   de   cada   campo   
+    de   texto,   utilice   el   controlador   de eventos   para   Blur   y   comprobar   si   el   usuario   ha   introducido   nada   en   
+    el   campo   respectivo. Si   el   usuario   no   lo   hizo,   enviar   una   alerta   para   decírselo,   y   utilizar   el   método   
+    focus()   para devolver el foco al campo de texto que el usuario acaba de abandonar.
+
+    <h1>Validación de contraseñas</h1>
+    <form>
+        <label for="password1">Contraseña:</label>
+        <input type="password" id="password1" data-error="error-password1">
+        <span id="error-password1" class="error"></span><br><br>
+
+        <label for="password2">Repite la contraseña:</label>
+        <input type="password" id="password2" data-error="error-password2">
+        <span id="error-password2" class="error"></span><br><br>
+    </form>
+    </form>
+</body>
+
+</html>
